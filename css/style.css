@@ -5,11 +5,14 @@
   }
 
 :root{
+    --main-color:#CDA274;
     --main-title-color:#292F36;
-    --nav-hover:#CDA274;
-    --primary-text:#4D5053;
-    --button-text:#fff;
-    --border:#E7E7E7;
-    --small-background:#F4F0EC;
-    --secondary-text:#fff;
+    --nav-title-color:#292F36;
+    --accent-color:#CDA274;
+    --text-color:#4D5053;
+    --accent-second-color:#fff;
+    --button-bg:#CDA274;
+    --border-color:#E7E7E7;
+    --small-bg-color:#F4F0EC;
+    --text-second-color:#fff;
 }
