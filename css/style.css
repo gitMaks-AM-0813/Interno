@@ -2,7 +2,88 @@
     --font-family: "Jost", sans-serif;
     --second-family: "DM Serif Display", sans-serif;
     --third-family: "Inter", sans-serif;
-}
+
+  }
+  :root{
+    --main-color: #cda274;
+    --title-color: #292f36;
+    --nav-color: #292f36;
+    --accent-color: #cda274;
+    --text-color: #4d5053;
+    --accent-second-color: #fff;
+    --button-bg: #cda274;
+    --border-top-color: #e5e5e5;
+    --small-bg-color: #f4f0ec;
+    --text-second-color: #fff;
+    --border-color: #f7f7f7;
+    --button-bg-second: #292F36;
+  }
+  body{
+   font-family: "Jost" , sans-serif;
+   background-color: #fff;
+  }
+  .container{
+    margin: 0 auto;
+    width: 1200px;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  a, p, ul, li, h1, h2, h3{
+    padding: 0px;
+    margin: 0px;
+  }
+  /* main settings */
+  .people{
+    background-color: var(--small-bg-color);
+    margin: 140px 125px;
+    padding-top: 103px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 70px;
+  }
+  .people-title{ 
+    font-family: var(--second-family);  
+font-size: 45px;
+line-height: 130%;
+text-align: center;
+color: #292f36;
+width: 479px;
+margin: 0 auto;
+  }
+  .people-list-item{
+    background-color: #fff;
+    padding-top: 49px;
+    padding-bottom: 45px;
+    padding-left: 35px;
+    padding-right: 30px;
+    border-radius: 30px;
+    width: 354px;
+    height: 287px;
+  }
+  .people-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    
+  }
+  /* brands */
+  .brands-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .brands-image{
+    width:132px;
+    height:43px;
+  }
+  
+
+
 
 :root{
     --main-color:#CDA274;
@@ -28,7 +109,7 @@
 /* blogs */
 .blogs-headline {
   font-family: var(--second-family);
-  color: var(--title-color)
+  color: var(--title-color);
   font-weight: 400;
   font-size: 48px;
   line-height: 62.4px;
@@ -151,3 +232,4 @@
 .footer-autor {
   color: var(--accent-color);
 }
+
