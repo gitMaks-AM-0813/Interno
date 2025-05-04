@@ -109,13 +109,15 @@ margin: 0 auto;
 .blogs-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
 }
 .blogs-item {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 10px;
   border: 1px solid var(--border-color);
   border-radius: 62px;
-  flex-basis: calc((100% - 20px) / 3);
-  padding: 21px 21px 15px;
+  flex-basis: calc(100% / 3);
+  padding: 21px 21px 40px;
 }
 .blogs-link {
 
@@ -123,12 +125,13 @@ margin: 0 auto;
 .blogs-img {
   border-top-left-radius: 62px;
   border-top-right-radius: 62px;
-  width: 100%;
+  max-width: 345px;
 }
 .blogs-title {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 28px;
+  max-width: 343px;
+  font-size: 26px;
   line-height: 35px;
   color: var(--title-color);
 }
@@ -136,6 +139,7 @@ margin: 0 auto;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+  max-width: 343px;
   line-height: 24px;
   color: var(--text-color);
 }
@@ -147,7 +151,7 @@ margin: 0 auto;
 .join-container{
   background-color: var(--second-bg-color);
   border-radius: 70px;
-  align-items: center;
+  text-align: center;
 }
 .join-title {
   color: var(--text-second-color);
@@ -157,7 +161,6 @@ margin: 0 auto;
   line-height: 75px;
   letter-spacing: 0.22px;
   padding: 100px auto 9px;
-  text-align: center;
 }
 .join-text {
   font-family: var(--font-family);
@@ -166,7 +169,6 @@ margin: 0 auto;
   font-size: 22px;
   line-height: 33px;
   margin: 9px auto 31px;
-  text-align: center;
 }
 .join-button {
   box-shadow: 1px 0px 18px 0px #00000033;
@@ -177,7 +179,6 @@ margin: 0 auto;
   border: 2px solid var(--accent-color);
   border-radius: 18px;
   margin-bottom: 95px;
-  align-self: center;
   cursor: pointer;
 }
 
