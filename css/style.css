@@ -10,12 +10,13 @@
     --accent-color: #cda274;
     --text-color: #4d5053;
     --accent-second-color: #fff;
-    --button-bg: #cda274;
+    --button-bg-color: #cda274;
     --border-top-color: #e5e5e5;
-    --small-bg-color: #f4f0ec;
+    --bg-color: #f4f0ec;
+    --second-bg-color: #292f36;
     --text-second-color: #fff;
-    --border-color: #f7f7f7;
-    --button-bg-second: #292F36;
+    --border-color: #e7e7e7;
+    --second-button-bg-color: #292F36;
   }
   body{
    font-family: "Jost" , sans-serif;
@@ -37,7 +38,7 @@
   }
   /* main settings */
   .people{
-    background-color: var(--small-bg-color);
+    background-color: var(--bg-color);
     margin: 140px 125px;
     padding-top: 103px;
     padding-bottom: 120px;
@@ -82,20 +83,6 @@ margin: 0 auto;
   }
   
 
-
-
-:root{
-  --title-color:#292F36;
-  --nav-color:#292F36;
-  --bg-color: #292f36;
-  --accent-color:#CDA274;
-  --text-color:#4D5053;
-  --accent-second-color:#fff;
-  --border-top-color:#E5E5E5;
-  --second-bg-color:#F4F0EC;
-  --text-second-color:#fff;
-  --border-color:#e7e7e7;
-}
 
 .container {
   width: 1200px;
@@ -143,7 +130,7 @@ margin: 0 auto;
 .blogs-title {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.5px;
   color: var(--title-color);
@@ -162,7 +149,7 @@ margin: 0 auto;
   padding: 141px auto 138px;
 }
 .join-container{
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
   border-radius: 70px;
   align-items: center;
 }
@@ -173,7 +160,7 @@ margin: 0 auto;
   font-size: 50px;
   line-height: 75px;
   letter-spacing: 0.22px;
-  margin-top: 100px;
+  padding: 100px auto 9px;
   text-align: center;
 }
 .join-text {
@@ -183,6 +170,7 @@ margin: 0 auto;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.22px;
+  margin: 9px auto 31px;
   text-align: center;
 }
 .join-button {
@@ -199,6 +187,10 @@ margin: 0 auto;
 }
 
 /* footer */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
 .footer-logo {
   font-family: var(--second-family);
   font-weight: 400;
@@ -212,6 +204,7 @@ margin: 0 auto;
 }
 .footer-text {
   font-family: var(--font-family);
+  color: var(--text-color);
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
