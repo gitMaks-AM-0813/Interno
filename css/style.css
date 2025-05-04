@@ -97,7 +97,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 48px;
   line-height: 62.4px;
-  letter-spacing: 0.22px;
   text-align: center;
 }
 .blogs-text {
@@ -105,7 +104,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
   text-align: center;
 }
 .blogs-list {
@@ -132,7 +130,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 28px;
   line-height: 35px;
-  letter-spacing: 0.5px;
   color: var(--title-color);
 }
 .blogs-date {
@@ -140,7 +137,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.22px;
   color: var(--text-color);
 }
 
@@ -159,7 +155,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 50px;
   line-height: 75px;
-
   letter-spacing: 0.22px;
   padding: 100px auto 9px;
   text-align: center;
@@ -170,7 +165,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
   margin: 9px auto 31px;
   text-align: center;
 }
@@ -197,7 +191,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 50px;
   line-height: 37.5px;
-  letter-spacing: 0.22px;
   color: var(--title-color);
 }
 .footer-icon{
@@ -209,7 +202,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
 
 }
 .footer-title {
@@ -218,7 +210,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 25px;
   line-height: 37.5px;
-  letter-spacing: 0.22px;
 }
 .footer-link {
   font-family: var(--font-family);
@@ -226,7 +217,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
 }
 .footer-address {
   font-family: var(--font-family);
@@ -234,7 +224,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
 }
 .footer-copyright {
   font-family: var(--font-family);
@@ -242,7 +231,6 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
   text-align: center;
 }
 .footer-autor {
