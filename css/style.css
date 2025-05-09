@@ -242,7 +242,17 @@ a, p, ul, li, h1, h2, h3{
   margin-top: 5px;
 }
 
-/* TODO: add phone image before "design-text" and "design-link" */
+.design-block{
+  display: flex;
+}
+
+.phone{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/phone.png);
+  width: 32px;
+  height: 32px;
+}
 
 .design-btn{
   font-family: var(--font-family);
