@@ -109,14 +109,15 @@ margin: 0 auto;
 .blogs-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .blogs-item {
   box-sizing: border-box;
   display: block;
   border: 1px solid var(--border-color);
   border-radius: 62px;
-  flex-basis: calc((100% - 46px) / 3);
-  padding: 21px 21px 40px;
+  flex-basis: calc((100% - 40px) / 3);
+  padding: 21px 20px 40px;
 }
 .blogs-link {
 
