@@ -113,10 +113,9 @@ margin: 0 auto;
 .blogs-item {
   box-sizing: border-box;
   display: block;
-  margin: 0 10px;
   border: 1px solid var(--border-color);
   border-radius: 62px;
-  flex-basis: calc(100% / 3);
+  flex-basis: calc((100% - 46px) / 3);
   padding: 21px 21px 40px;
 }
 .blogs-link {
