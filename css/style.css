@@ -263,17 +263,6 @@ margin: 0 auto;
   height: 52px;
   border: none;
 }
-.blogs-date::after {
-  content: "";
-  border-radius: 100%;
-  background-image: url(../images/backarrow.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--bg-color);
-  width: 52px;
-  height: 52px;
-  border: none;
-}
 
 /* join */
 .join {
