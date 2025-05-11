@@ -4,7 +4,6 @@
   --third-family: "Inter", sans-serif;
 }
   :root{
-    --main-color: #cda274;
     --title-color: #292f36;
     --nav-color: #292f36;
     --accent-color: #cda274;
@@ -16,7 +15,6 @@
     --second-bg-color: #292f36;
     --text-second-color: #fff;
     --border-color: #e7e7e7;
-    --second-button-bg-color: #292F36;
   }
   body{
    font-family: "Jost" , sans-serif;
@@ -146,7 +144,7 @@ margin: 0 auto;
 
 /* join */
 .join {
-  padding: 141px auto 138px;
+  margin: 141px auto 138px;
 }
 .join-container{
   background-color: var(--second-bg-color);
@@ -159,8 +157,8 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 50px;
   line-height: 75px;
-  letter-spacing: 0.22px;
-  padding: 100px auto 9px;
+  padding-top: 100px;
+  margin: 100px 0 9px;
 }
 .join-text {
   font-family: var(--font-family);
@@ -168,17 +166,17 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  margin: 9px auto 31px;
+  margin-top: 9px;
 }
 .join-button {
   box-shadow: 1px 0px 18px 0px #00000033;
   color: var(--text-second-color);
   padding: 22px 34px;
+  margin: 31px 0 95px;
   font-family: var(--font-family);
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
   border-radius: 18px;
-  margin-bottom: 95px;
   cursor: pointer;
 }
 
@@ -186,6 +184,10 @@ margin: 0 auto;
 .footer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.footer-wrap:first-child {
+  width: 326px;
 }
 .footer-logo {
   font-family: var(--second-family);
@@ -204,6 +206,17 @@ margin: 0 auto;
   font-size: 22px;
   line-height: 33px;
 
+}
+.footer-media-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 181px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .footer-title {
   font-family: var(--second-family);
@@ -229,6 +242,8 @@ margin: 0 auto;
 .footer-copyright {
   font-family: var(--font-family);
   color: var(--text-color);
+  padding: 35px;
+  border-top: var(--border-top-color) solid 1px;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
