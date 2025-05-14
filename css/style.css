@@ -17,6 +17,7 @@
     --second-bg-color: #f4f0ec;
     --text-second-color: #fff;
     --border-color: #E7E7E7;
+    --bg-color: #f4f0ec;
 }
 
 /* main settings */
@@ -133,6 +134,7 @@ a, p, ul, li, h1, h2, h3{
 }
 
 .banner-btn{
+  display: inline-flex;
   padding: 22px 34px;
   width: 207px;
 }
@@ -142,10 +144,10 @@ a, p, ul, li, h1, h2, h3{
   display: inline-block;
   background-image: url(../images/arrow.png);
   background-repeat: no-repeat;
-  background-size: 25px;
   background-position: center center;
   width: 24px;
   height: 24px;
+  margin-left: 21px;
 }
 
 /* info */
@@ -157,6 +159,7 @@ a, p, ul, li, h1, h2, h3{
 
 .info-list{
   display: flex;
+  align-items: baseline;
   gap: 93px;
 }
 
@@ -183,6 +186,7 @@ a, p, ul, li, h1, h2, h3{
 }
 
 .info-link{
+  display: inline-flex;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -195,6 +199,7 @@ a, p, ul, li, h1, h2, h3{
   background-image: url(../images/arrow.png);
   width: 24px;
   height: 17px;
+  margin-left: 9px;
 }
 
 /* design */
@@ -244,17 +249,24 @@ a, p, ul, li, h1, h2, h3{
 
 .design-block{
   display: flex;
+  align-items: center;
 }
 
-.phone{
-  content: "";
-  display: inline-block;
-  background-image: url(../images/phone.png);
-  width: 32px;
-  height: 32px;
+.design-wrap{
+  margin-left: 50px;
+}
+
+.design-second-link{
+  border: none;
+  width: 93px;
+  height: 93px;
+  background: url(../images/phone.png) center no-repeat var(--second-bg-color);
+  border-radius: 100px;
+  background-position: center center;
 }
 
 .design-btn{
+  display: inline-flex;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -272,4 +284,5 @@ a, p, ul, li, h1, h2, h3{
   background-position: center center;
   width: 24px;
   height: 24px;
+  margin-left: 16px;
 }
