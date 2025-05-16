@@ -345,6 +345,7 @@ color: #4d5053;
   width: 326px;
 }
 .footer-logo {
+  display: inline-block;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 50px;
@@ -358,7 +359,7 @@ color: #4d5053;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .footer-media-list {
   display: flex;
@@ -372,6 +373,7 @@ color: #4d5053;
   font-weight: 400;
   font-size: 25px;
   line-height: 37.5px;
+  margin-bottom: 22px;
 }
 .footer-link {
   font-family: var(--font-family);
@@ -379,6 +381,8 @@ color: #4d5053;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 .footer-address {
   font-family: var(--font-family);
@@ -388,7 +392,8 @@ color: #4d5053;
   line-height: 33px;
 }
 .footer-item-address {
-  width: 309 px;
+  width: 309px;
+  margin-bottom: 30px;
 }
 .footer-copyright {
   font-family: var(--font-family);
