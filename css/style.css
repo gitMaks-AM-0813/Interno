@@ -11,6 +11,7 @@
     --accent-second-color: #fff;
     --button-bg-second: #292F36;
     --border-top-color: #e5e5e5;
+    --second-bg-color: #f4f0ec;
     --text-second-color: #fff;
     --border-color: #E7E7E7;
     --bg-color: #f4f0ec;
@@ -36,20 +37,14 @@
   /* main settings */
   .people-container{
     background-color: #f4f0ec;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 103px;
-  }
-  .people{
+padding: 103px 50px 120px;
 border-radius: 70px;
-    background-color: var(--bg-color);
-    margin: 140px 125px;
-    padding-top: 103px;
-    padding-bottom: 120px;
   }
+  
   .people-wrapper{
     display: flex;
     margin-bottom: 25px;
+    align-items: center;
   }
   .people-second-wrapper{
     display: flex;
@@ -84,7 +79,7 @@ padding-bottom: 45px;
     display: flex;
     justify-content: space-around;
     gap: 16px;
-    padding-bottom: 100px;
+   
   }
   .people-subtitle{
     font-family: var(--second-family);
@@ -99,7 +94,7 @@ font-size: 18px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
-text-align: center;
+
   }
   .people-text{
     font-family: var(--font-family);
@@ -110,23 +105,38 @@ color: #4d5053;
   }
   /* brands */
   .brands{
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .brands-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .brands-image{
-    width:132px;
-   min-height: fit-content;
-  }
+ 
   
 
 
 
 
 /* projects */
+.image-cover{
+  padding-top: 25px;
+}
+.project-icon{
+  height: 16px;
+  width: 9px;
+  background-color: var(--bg-color);
+  padding: 27px 31px; 
+  border-radius: 100px;
+}
+.project-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.project-item{
+  cursor: pointer;
+}
 .projects{
   margin-bottom: 140px;
 }
@@ -150,9 +160,10 @@ margin-bottom: 70px;
 .project-list{
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 20px) / 2);
   gap: 20px;
+  column-gap: 20px;
 }
+
 .project-subtitle{
   font-family: var(--second-family);
   font-size: 24px;
@@ -160,6 +171,7 @@ margin-bottom: 70px;
   letter-spacing: 0.01em;
   color: #292f36;
   margin-top: 24px;
+  
 }
 .project-name{
   font-family: var(--font-family);
@@ -169,26 +181,20 @@ letter-spacing: 0.01em;
 color: #4d5053;
 display: flex;
 }
-.project-name::after{
-  content: "";
-  background-image: url("../images/backarrow.png");
-  width: 9px;
-  height: 16px;
-  background-repeat: no-repeat;
-  
-  align-items: end;
-  
+
+.project-wrapper{
+  padding-top: 25px;
 }
 
 /* statistics */
 .statistics{
   background-color: var(--bg-color);
 padding: 140px 153px;
-margin-bottom: 130px;
+
 }
 .statistics-list{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .statistics-title{
@@ -198,22 +204,34 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #cda274;
+margin-right: 80px;
 }
-.statistics-title::after{
-  content: "";
-  border: 1px solid #cda274;
-height: 195px;
-  margin-left: 116px;
-  display: inline-block;
 
- 
-}
 .statistics-name{
   font-family: var(--font-family);
 font-size: 22px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
+
+
+}
+.statistics-item{
+  width: 250px;
+  
+}
+.statistics-item:nth-child(1){
+  border-right: 1px solid var(--accent-color);
+height: 195px;
+
+}
+.statistics-item:nth-child(2){
+  border-right: 1px solid var(--accent-color);
+height: 195px;
+}
+.statistics-item:nth-child(3){
+  border-right: 1px solid var(--accent-color);
+height: 195px;
 }
 .container {
   width: 1200px;
