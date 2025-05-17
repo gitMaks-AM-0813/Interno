@@ -13,7 +13,7 @@
     --border-top-color: #e5e5e5;
     --second-bg-color: #f4f0ec;
     --text-second-color: #fff;
-    --border-color: #E7E7E7;
+    --border-color: #e7e7e7;
     --bg-color: #f4f0ec;
   }
   body{
@@ -241,7 +241,7 @@ height: 195px;
 }
 /* blogs */
 .blogs {
-  padding-bottom: 141px;
+  padding: 143px 0 141px;
 }
 .blogs-headline {
   font-family: var(--second-family);
@@ -261,13 +261,14 @@ height: 195px;
 .blogs-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 19px;
 }
 .blogs-item {
   box-sizing: border-box;
   border-radius: 62px;
   flex-basis: calc((100% - 40px) / 3);
-  padding: 21px 21px 40px;
+  padding: 21px 20px 40px;
+  border: 1px solid var(--border-color);
 }
 .blogs-img {
   border-top-left-radius: 62px;
@@ -276,11 +277,30 @@ height: 195px;
 }
 .blogs-title {
   font-family: var(--second-family);
+  color: var(--title-color);
   font-weight: 400;
   max-width: 343px;
   font-size: 26px;
   line-height: 35px;
-  color: var(--title-color);
+  margin-top: 15px;
+}/*
+.blogs-title::before {
+  content: "Kitchen Design";
+  display: inline-flex;
+  background-color: var(--accent-second-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  width: 125px;  
+  height: 44px;
+  border-radius: 8px 8px 0;
+  line-height: 24px;
+  bottom: 50px;
+}*/
+.blogs-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0;
 }
 .blogs-date {
   font-family: var(--font-family);
@@ -289,6 +309,7 @@ height: 195px;
   max-width: 343px;
   line-height: 24px;
   color: var(--text-color);
+  cursor: inherit;
 }
 .blogs-button {
   border-radius: 100%;
@@ -300,6 +321,7 @@ height: 195px;
   background-color: var(--bg-color);
   width: 52px;
   height: 52px;
+  cursor: inherit;
   border: none;
 }
 
@@ -334,7 +356,7 @@ height: 195px;
   border: 2px solid var(--accent-color);
   cursor: pointer;font-size: 18px;
   padding: 22px 34px;
-  margin: 31px;
+  margin: 31px 31px 0;
   border-radius: 18px;
   line-height: 150%;
   letter-spacing: 0.01em;
