@@ -241,7 +241,7 @@ height: 195px;
 }
 /* blogs */
 .blogs {
-  padding: 143px 0 141px;
+  padding: 143px 0 100px;
 }
 .blogs-headline {
   font-family: var(--second-family);
@@ -250,12 +250,14 @@ height: 195px;
   font-size: 48px;
   line-height: 62.4px;
   text-align: center;
+  margin-bottom: 21px;
 }
 .blogs-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .blogs-list {
@@ -265,10 +267,11 @@ height: 195px;
 }
 .blogs-item {
   box-sizing: border-box;
-  border-radius: 62px;
-  flex-basis: calc((100% - 40px) / 3);
-  padding: 21px 20px 40px;
   border: 1px solid var(--border-color);
+  flex-basis: calc((100% - 40px) / 3);
+  border-radius: 62px;
+  padding: 21px 20px 40px;
+  margin-bottom: 40px;
 }
 .blogs-img {
   border-top-left-radius: 62px;
@@ -283,19 +286,7 @@ height: 195px;
   font-size: 26px;
   line-height: 35px;
   margin-top: 15px;
-}/*
-.blogs-title::before {
-  content: "Kitchen Design";
-  display: inline-flex;
-  background-color: var(--accent-second-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
-  width: 125px;  
-  height: 44px;
-  border-radius: 8px 8px 0;
-  line-height: 24px;
-  bottom: 50px;
-}*/
+}
 .blogs-wrap {
   display: flex;
   justify-content: space-between;
