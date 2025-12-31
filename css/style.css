@@ -511,6 +511,9 @@ text-align: center;
   padding: 21px 20px 40px;
   margin-bottom: 40px;
 }
+.blogs-link {
+  position: relative;
+}
 .blogs-img {
   border-top-left-radius: 62px;
   border-top-right-radius: 62px;
@@ -554,6 +557,20 @@ text-align: center;
   border: none;
 }
 
+.blogs-filter {
+  position: absolute;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--accent-second-color);
+  padding: 10px;
+  left: 24px;
+  bottom: 186px;
+  border-radius: 8px 8px 8px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.22px;
+}
 /* join */
 .join-container{
   background-color: var(--button-bg-second);
